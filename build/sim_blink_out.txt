@@ -1,0 +1,3 @@
+first on  at t=500000090000 ns (expect ~500,000,100)
+period    = 1000000000000 ns (expect ~1,000,000,000)
+PASS: even LEDs blink at 1 Hz, odd LEDs stay off
