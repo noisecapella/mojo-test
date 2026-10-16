@@ -1,0 +1,4 @@
+# regenerable build artifacts
+*.vvp
+*.bit
+*.bin
