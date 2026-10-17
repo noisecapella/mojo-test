@@ -1,0 +1,20 @@
+pwm period of led[1] = 1000000 ns (expect 1000000)
+pwm period check OK
+samples: window A = 45455, window B = 45455
+A led[0] duty = 11363/45455 (expect level 0)
+A led[1] duty = 34090/45455 (expect level 1)
+A led[2] duty = 45455/45455 (expect level 2)
+A led[3] duty = 11363/45455 (expect level 0)
+A led[4] duty = 34090/45455 (expect level 1)
+A led[5] duty = 45455/45455 (expect level 2)
+A led[6] duty = 11363/45455 (expect level 0)
+A led[7] duty = 34090/45455 (expect level 1)
+B led[0] duty = 34090/45455 (expect level 1)
+B led[1] duty = 45455/45455 (expect level 2)
+B led[2] duty = 11364/45455 (expect level 0)
+B led[3] duty = 34090/45455 (expect level 1)
+B led[4] duty = 45455/45455 (expect level 2)
+B led[5] duty = 11364/45455 (expect level 0)
+B led[6] duty = 34090/45455 (expect level 1)
+B led[7] duty = 45455/45455 (expect level 2)
+PASS: PWM cycle 25/75/100% with 1 s step, start pattern correct
